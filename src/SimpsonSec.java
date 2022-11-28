@@ -18,7 +18,7 @@ public class SimpsonSec {
         double sumchet = 0;
         double sumnechet = 0;
         double xi = a;
-        double h = (x - a) / 2 * n;
+        double h = (x - a) / (2 * n);
         double x2n = a + 2 * n * h;
         for (int i = 1; i <= n; i++) {
             if (i % 2 != 0)
